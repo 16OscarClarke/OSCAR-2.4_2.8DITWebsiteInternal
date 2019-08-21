@@ -14,9 +14,18 @@
 }
 h1{
   color: var(--secondryColourLight);
+  text-align: center;
 }
-nav{
+nav li {
+
+  display: inline-block;
   text-decoration: none;
-  
+  color: var(mainTextColour);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.HeaderIMG{
+
 
 }
