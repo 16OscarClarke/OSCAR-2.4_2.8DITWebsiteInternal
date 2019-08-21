@@ -1,0 +1,22 @@
+:root{
+  --mainTextColour: white;
+  --specialtextColour: #4c7a34;
+  --PirmaryColourLight:#0844a4;
+  --PrimaryColourDark: #021f54;
+  --secondryColourLight:#629c44;
+  --secondryColourDark:#033076;
+}
+*{
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+h1{
+  color: var(--secondryColourLight);
+}
+nav{
+  text-decoration: none;
+  
+
+}
