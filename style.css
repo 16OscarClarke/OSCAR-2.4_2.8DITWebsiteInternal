@@ -1,7 +1,7 @@
 :root{
   --mainTextColour: white;
   --specialtextColour: #4c7a34;
-  --PirmaryColourLight:#0844a4;
+  --PrimaryColourLight:#0844a4;
   --PrimaryColourDark: #021f54;
   --secondryColourLight:#629c44;
   --secondryColourDark:#033076;
@@ -12,22 +12,45 @@
   padding: 0px;
   text-decoration: none;
 }
-h1{
-  color: var(--secondryColourLight);
-  text-align: center;
-}
-nav li {
 
-  display: inline-block;
-  text-decoration: none;
-  color: var(mainTextColour);
+h1{
   text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+h1 a{
+  text-decoration: none;
+  color: var(--secondryColourLight);
   align-items: center;
   align-content: center;
 }
 
+nav {
+  text-align: center;
+  position: fixed;
+  float: left;
 }
-.HeaderIMG{
 
+nav li:hover{
+  background-color: var(--specialtextColour);
+}
 
+nav li {
+  margin: 0px;
+  text-align: center;
+  padding-left: 150px;
+  padding-bottom: 65px;
+  display: inline-block;
+  text-decoration: none;
+  align-content: center;
+  background-color: var(--PrimaryColourDark);
+}
+
+li a{
+  color: var(--mainTextColour)
+}
+
+.IndexBody{
+  margin-top: 75px;
 }
