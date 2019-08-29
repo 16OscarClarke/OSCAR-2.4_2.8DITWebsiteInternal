@@ -11,16 +11,19 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  font-family: 'Livvic', sans-serif;
 }
 header{
   background-image: url("images/HeaderImage.jpg");
   background-position: center;
+  font-family: 'Satisfy', cursive;
 }
 h1{
   text-align: center;
   padding-top: 100px;
-  margin-bottom: 45px;
+  margin-bottom: 100px;
   border: 5px;
+  font-family: 'Satisfy', cursive;
 }
 
 h1 a{
@@ -28,6 +31,10 @@ h1 a{
   color: var(--secondryColourLight);
   align-items: center;
   align-content: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 75px;
+
+
 }
 
 nav {
@@ -39,6 +46,7 @@ nav li:hover{
 }
 a li{
   color: var(--mainTextColour);
+  font-size: 30px;
 }
 nav li {
   margin: 0px;
@@ -59,5 +67,18 @@ li a{
   padding-top: 30px;
   background-color: var(--PrimaryColourLight);
   color: var(--mainTextColour);
-  padding-bottom: 250px
+  padding-bottom: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size:
+
+}
+
+.BreakerImagePengun{
+}
+.BreakerImageSealion{
+}
+
+.BreakerImageAlbatross{
 }
