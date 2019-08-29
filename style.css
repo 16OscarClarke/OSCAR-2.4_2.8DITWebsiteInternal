@@ -30,6 +30,7 @@ nav {
   text-align: center;
   position: fixed;
   float: left;
+  padding-left: 199px;
 }
 
 nav li:hover{
@@ -40,7 +41,7 @@ nav li {
   margin: 0px;
   text-align: center;
   padding-left: 150px;
-  padding-bottom: 65px;
+  padding-bottom: 45px;
   display: inline-block;
   text-decoration: none;
   align-content: center;
@@ -52,5 +53,8 @@ li a{
 }
 
 .IndexBody{
-  margin-top: 75px;
+  padding-top: 100px;
+  background-color: var(--PrimaryColourLight);
+  color: var(--mainTextColour);
+  padding-bottom: 250px
 }
