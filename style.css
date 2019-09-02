@@ -6,6 +6,7 @@
   --secondryColourLight:#629c44;
   --secondryColourDark:#033076;
 }
+
 *{
   font-family: sans-serif;
   margin: 0px;
@@ -13,17 +14,20 @@
   text-decoration: none;
   font-family: 'Livvic', sans-serif;
 }
+
 header{
   background-image: url("images/HeaderImage.jpg");
   background-position: center;
   font-family: 'Satisfy', cursive;
 }
+
 h1{
   text-align: center;
   padding-top: 100px;
   margin-bottom: 100px;
   border: 5px;
   font-family: 'Satisfy', cursive;
+
 }
 
 h1 a{
@@ -33,7 +37,7 @@ h1 a{
   align-content: center;
   font-family: 'Satisfy', cursive;
   font-size: 75px;
-
+  text-shadow: 3px 3px black;
 
 }
 
@@ -44,10 +48,12 @@ nav {
 nav li:hover{
   background-color: var(--specialtextColour);
 }
+
 a li{
   color: var(--mainTextColour);
   font-size: 30px;
 }
+
 nav li {
   margin: 0px;
   text-align: center;
@@ -74,12 +80,24 @@ li a{
   font-size:
 
 }
-
-.BreakerImagePengun{
-  
+img {
+  padding-top: 15px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+  background-color: var(--PrimaryColourLight);
 }
+.BreakerImagePengun{
+  width: 45px;
+  height: auto;
+
+}
+
 .BreakerImageSealion{
+  max-width:50%;
+  height:auto;
 }
 
 .BreakerImageAlbatross{
+  width: 45px;
+
 }
