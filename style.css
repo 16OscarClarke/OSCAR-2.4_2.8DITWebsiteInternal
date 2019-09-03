@@ -53,27 +53,51 @@ a li{
   color: var(--mainTextColour);
   font-size: 30px;
 }
-
-nav li {
-  margin: 0px;
-  text-align: center;
-  padding-left: 150px;
-  padding-bottom: 40px;
+nav li{
+  padding-left: 80px;
+  padding-right: 75px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   display: inline-block;
-  text-decoration: none;
-  align-content: center;
-  background-color: var(--PrimaryColourDark);
+  background-color: var(--PrimaryColourDark)
 }
+
 
 li a{
   color: var(--mainTextColour)
 }
 
+.Hero{
+  background-image: url("images/SeaLion.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.HeroButton a:hover{
+  text-shadow: 5px 5px black;
+}
+.HeroButton{
+  padding-top: 215px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondryColourLight);
+  font-size: 80px;
+  text-shadow: 3px 3px Black;
+}
+.HeroText{
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondryColourLight);
+  font-size: 50px;
+  text-shadow: 2px 2px Black;
+  padding-bottom: 250px;
+}
+
 .IndexBody{
-  padding-top: 30px;
+  padding-top: 35px;
   background-color: var(--PrimaryColourLight);
   color: var(--mainTextColour);
-  padding-bottom: 250px;
+  padding-bottom: 190px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
@@ -86,6 +110,21 @@ img {
   margin-top: 0px;
   background-color: var(--PrimaryColourLight);
 }
+footer{
+  text-align: center;
+  background-color: var(--PrimaryColourDark);
+}
+footer p{
+  color: var(--mainTextColour);
+  padding-bottom: 15px;
+  font-size: 11px;
+  background-color: var(--PrimaryColourDark);
+  display: inline-block;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
 .BreakerImagePengun{
   width: 45px;
   height: auto;
@@ -99,5 +138,4 @@ img {
 
 .BreakerImageAlbatross{
   width: 45px;
-
 }
