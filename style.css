@@ -140,3 +140,8 @@ footer p{
 .BreakerImageAlbatross{
   width: 45px;
 }
+
+.BookingFourm{
+  background-color: var(--PrimaryColourLight);
+  padding-left: 25%;
+}
