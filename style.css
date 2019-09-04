@@ -55,7 +55,7 @@ a li{
 }
 nav li{
   padding-left: 80px;
-  padding-right: 75px;
+  padding-right: 80px;
   padding-top: 10px;
   padding-bottom: 15px;
   display: inline-block;
@@ -123,6 +123,7 @@ footer p{
   text-align: center;
   padding-left: 15px;
   padding-right: 10px;
+  padding-top: 10px;
 }
 
 .BreakerImagePengun{
