@@ -188,3 +188,17 @@ footer p{
   font-size: 60px;
   text-shadow: 3px 3px black;
 }
+.StaffLink{
+  text-decoration: underline;
+  color: var(--mainTextColour)
+}
+
+.StaffLink a:hover{
+  color: var(--secondryColourDark);
+}
+
+.ToursBody img{
+  padding-top: 40px;
+  width: 60%;
+  height: auto;
+}
