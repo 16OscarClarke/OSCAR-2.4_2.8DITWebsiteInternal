@@ -6,7 +6,6 @@
   --secondryColourLight:#629c44;
   --secondryColourDark:#033076;
 }
-
 *{
   font-family: sans-serif;
   margin: 0px;
@@ -14,13 +13,11 @@
   text-decoration: none;
   font-family: 'Livvic', sans-serif;
 }
-
 header{
   background-image: url("images/HeaderImage.jpg");
   background-position: center;
   font-family: 'Satisfy', cursive;
 }
-
 h1{
   text-align: center;
   padding-top: 100px;
@@ -29,7 +26,6 @@ h1{
   font-family: 'Satisfy', cursive;
 
 }
-
 h1 a{
   text-decoration: none;
   color: var(--secondryColourLight);
@@ -40,15 +36,12 @@ h1 a{
   text-shadow: 3px 3px black;
 
 }
-
 nav {
   text-align: center;
 }
-
 nav li:hover{
   background-color: var(--specialtextColour);
 }
-
 a li{
   color: var(--mainTextColour);
   font-size: 30px;
@@ -61,12 +54,9 @@ nav li{
   display: inline-block;
   background-color: var(--PrimaryColourDark)
 }
-
-
 li a{
   color: var(--mainTextColour)
 }
-
 .Hero{
   background-image: url("images/SeaLion.jpg");
   background-size: cover;
@@ -92,7 +82,6 @@ li a{
   text-shadow: 2px 2px Black;
   padding-bottom: 250px;
 }
-
 .IndexBody{
   padding-top: 50px;
   background-color: var(--PrimaryColourLight);
@@ -125,22 +114,41 @@ footer p{
   padding-right: 10px;
   padding-top: 10px;
 }
-
-.BreakerImagePengun{
-  width: 45px;
-  height: auto;
-  margin-bottom: 0px;
-
+ footer a{
+  text-decoration: none;
 }
-
 .BreakerImageSealion{
   max-width:50%;
   height:auto;
 }
 
 .BreakerImageAlbatross{
-  width: 45px;
-  margin-bottom: 0px;
+  background-color: var(--PrimaryColourLight);
+
+}
+
+.BreakerImageAlbatross img{
+  padding-left: 350px;
+  width: 50%;
+  height: auto;
+}
+
+.BreakerImagePengun{
+  background-color: var(--PrimaryColourLight);
+}
+
+.BreakerImagePengun img{
+  padding-left: 23px;
+  width: 50%;
+  height: auto;
+
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 
 .BookingFourm{
@@ -162,6 +170,21 @@ footer p{
 }
 
 .ToursBody h1{
+  font-size: 60px;
+  text-shadow: 3px 3px black;
+}
+.ContactBody{
+  padding-top: 50px;
+  background-color: var(--PrimaryColourLight);
+  color: var(--mainTextColour);
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size:
+}
+
+.ContactBody h1{
   font-size: 60px;
   text-shadow: 3px 3px black;
 }
