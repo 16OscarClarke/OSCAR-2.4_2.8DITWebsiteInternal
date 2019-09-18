@@ -114,29 +114,25 @@ footer p{
   padding-right: 10px;
   padding-top: 10px;
 }
- footer a{
+footer a{
   text-decoration: none;
 }
 .BreakerImageSealion{
   max-width:50%;
   height:auto;
 }
-
 .BreakerImageAlbatross{
   background-color: var(--PrimaryColourLight);
 
 }
-
 .BreakerImageAlbatross img{
   padding-left: 350px;
   width: 50%;
   height: auto;
 }
-
 .BreakerImagePengun{
   background-color: var(--PrimaryColourLight);
 }
-
 .BreakerImagePengun img{
   padding-left: 23px;
   width: 50%;
@@ -150,14 +146,12 @@ footer p{
   width: 50%;
 
 }
-
 .BookingFourm{
   padding-top: 50px;
   background-color: var(--PrimaryColourLight);
   padding-left: 25%;
   margin-bottom: 0px;
 }
-
 .ToursBody{
   padding-top: 50px;
   background-color: var(--PrimaryColourLight);
@@ -168,7 +162,6 @@ footer p{
   text-align: center;
   font-size:
 }
-
 .ToursBody h1{
   font-size: 60px;
   text-shadow: 3px 3px black;
@@ -181,9 +174,15 @@ footer p{
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
-  font-size:
+  font-size: 24px;
 }
-
+.ContactBody img{
+  padding-top: 40px;
+  width: 60%;
+  height: auto;
+  border: 5px solid var(--PrimaryColourLight);
+  border-radius: 100px;
+}
 .ContactBody h1{
   font-size: 60px;
   text-shadow: 3px 3px black;
@@ -192,13 +191,16 @@ footer p{
   text-decoration: underline;
   color: var(--mainTextColour)
 }
-
 .StaffLink a:hover{
   color: var(--secondryColourDark);
 }
-
 .ToursBody img{
   padding-top: 40px;
   width: 60%;
   height: auto;
+  border: 5px solid var(--PrimaryColourLight);
+  border-radius: 100px;
+}
+.AboutBreakIMG{
+
 }
